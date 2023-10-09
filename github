@@ -1,0 +1,22 @@
+git config --list
+git config --global user.name "username"
+git config --global user.email "youremail@yourdomain.com"
+
+
+
+
+
+git init 
+
+git remote add origin https://github.com/indrapermana92/project-2.git
+
+git add . 
+
+git commit -m "pesan commit"
+
+// ketika pertama kali push ke repository baru
+git push -u origin main 
+atau 
+git push -u origin master
+
+https://github.com/indrapermana92/project-2.git
