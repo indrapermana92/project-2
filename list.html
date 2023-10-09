@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat List</title>
+</head>
+<body>
+    <h1>Membuat List</h1>
+
+    <!-- 
+        Membuat list :
+        1. Ordered List = List yang menggunakan urutan
+            Contoh :
+            1..2..3..
+            a..b..c..
+
+            Format :
+            <ol>
+                <li>Konten 1</li>
+                <li>Konten 1</li>
+                <li>Konten 1</li>
+            </ol>
+
+        2. Unordered List = Menggunakan simbol2
+            Contoh :
+            Simbol lingkaran
+            Simbol kotaka
+     -->
+
+    <h1>Yang harus dilakukan hari ini :</h1>
+    <!-- 
+        Default menggunakang angka
+     -->
+     <ol>
+        <li>Diam di Rumah</li>
+        <li>Buat tutorial HTML</li>
+        <li>Mengerjakan PR Sekolah</li>
+     </ol>
+
+     <hr>
+     <ol start="96">
+        <li>Diam di Rumah</li>
+        <li>Buat tutorial HTML</li>
+        <li>Mengerjakan PR Sekolah</li>
+     </ol>
+
+     <hr/>
+     <ol type="A">
+        <li>Diam di Rumah</li>
+        <li>Buat tutorial HTML</li>
+        <li>Mengerjakan PR Sekolah</li>
+     </ol>
+     <hr/>
+     <ol type="i">
+        <li>Diam di Rumah</li>
+        <li>Buat tutorial HTML</li>
+        <li>Mengerjakan PR Sekolah</li>
+     </ol>
+     <hr/>
+     <ol type="I">
+        <li>Diam di Rumah</li>
+        <li>Buat tutorial HTML</li>
+        <li>Mengerjakan PR Sekolah</li>
+     </ol>
+<hr/>
+<h2>Dengan Unordered List</h2>
+<ul>
+    <li>Diam di Rumah</li>
+    <li>Buat tutorial HTML</li>
+    <li>Mengerjakan PR Sekolah</li>
+ </ul>
+
+ <hr/>
+ <ul style="list-style-type: circle;">
+    <li>Diam di Rumah</li>
+    <li>Buat tutorial HTML</li>
+    <li>Mengerjakan PR Sekolah</li>
+ </ul>
+
+ <hr/>
+ <ul style="list-style-type: square;">
+    <li>Diam di Rumah</li>
+    <li>Buat tutorial HTML</li>
+    <li>Mengerjakan PR Sekolah</li>
+ </ul>
+
+ <hr/>
+ <h1>List didalam list</h1>
+ <ol type="i">
+    <li>Diam di Rumah
+        <li>Santai</li>
+        <li>Belajar
+            <ol type="a">
+                <li>Matematika</li>
+                <li>HTML</li>
+            </ol>
+        </li>
+        <li>Cuci Tangan</li>
+    </li>
+    <li>Buat tutorial HTML</li>
+    <li>Mengerjakan PR Sekolah</li>
+ </ol>
+
+</body>
+</html>

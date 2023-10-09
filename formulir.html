@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Pekerja</h1>
+
+    <!-- Tag input memiki type sebagai berikut:
+        - text   ==> menampung data alphabetic, simbol, dan numerik
+        - number ==> menampung data angka saja
+        - date  ==> date picker
+        - file ==> menambahkan lampiran
+        - submit ==> mentrigger submit formulir, mengirimkan data dari client ke server
+        - reset ==> menghapus semua inputan yang sudah diisi
+
+
+    
+    -->
+    <form>
+
+    <label for="nama">Nama : </label>
+    <input type="text" name="nama" id="nama" placeholder="Nama Ente?">
+    <br/>
+    <br/>
+    <label for="tempat_lahir">Tempat Lahir :</label>
+    <input type="text" id="tempat_lahir" >
+    <br/>
+    <br/>
+    <label for="tanggal_lahir">Tanggal Lahir :</label>
+    <input type="date" name="tanggal_lahir" id="tanggal_lahir">
+    <br/>
+    <br/>
+    <label for="jk">Jenis Kelamin :</label>
+    <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+    <input type="radio" name="jk" value="Perempuan"> Perempuan
+    <br/>
+    <br/>
+    <label for="pelatihan">Jenis Pelatihan:</label>
+    <input type="checkbox" name="pelatihan[]" value="Pengantar HTML"> Pengantar HTML
+    <input type="checkbox" name="jk" value="Bahasa Inggris"> Bahasa Inggris
+    <br/>
+    <br/>
+    <label for="EMAIL">Email :</label>
+    <input type="email" id="email" name="email">
+    <br/>
+    <br/>
+    <label for="kewarganegaraan" id="kewarganegaraan">Pilih Kewarganegaraan</label>
+    <select name="kewarganegaraan" id="kewarganegaraan">
+        <option value="Indonesia">Indonesia</option>
+        <option value="Vietnam">Vietnam</option>
+    </select>
+    <br/>
+    <br/>
+    <label for="Alamat">Alamat</label>
+    <textarea name="Alamat" id="Alamat" cols="30" rows="1o"></textarea>
+    <br/>
+    <br/>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" />
+    <br/><br/>
+
+    <input type="submit" value="Daftar">
+    <input type="reset" name="Bersihkan">
+    </form>
+</body>
+</html>
